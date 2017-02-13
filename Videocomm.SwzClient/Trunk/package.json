@@ -1,0 +1,8 @@
+{
+  "name": "swzclient",
+  "version": "1.0.0",
+  "description": "graphql client",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT"
+}

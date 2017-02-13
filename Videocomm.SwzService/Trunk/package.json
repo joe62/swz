@@ -1,0 +1,9 @@
+{
+  "name": "swzservice",
+  "version": "1.0.0",
+  "description": "graphql service",
+  "main": "index.js",
+  "repository": {},
+  "author": "joe",
+  "license": "MIT"
+}
