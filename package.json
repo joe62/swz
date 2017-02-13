@@ -1,0 +1,12 @@
+{
+  "name": "swz",
+  "version": "1.0.0",
+  "description": "监控平台",
+  "main": "index.js",
+  "repository": "https://github.com/joe62/swz.git",
+  "author": "joe62 <yunfei_z@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
