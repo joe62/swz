@@ -1,0 +1,40 @@
+/* jshint indent: 2 */
+
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('accessctrldoor', {
+    DoorID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    DeviceID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    DoorNo: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    Name: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    MessageTypes: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    Action: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      defaultValue: "2"
+    },
+    ArmTime: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      defaultValue: "2011-08-18 17:00:00"
+    }
+  }, {
+    tableName: 'accessctrldoor'
+  });
+};

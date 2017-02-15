@@ -6,7 +6,5 @@
   "repository": "https://github.com/joe62/swz.git",
   "author": "joe62 <yunfei_z@163.com>",
   "license": "MIT",
-  "dependencies": {
-    "express": "^4.14.1"
-  }
+  "dependencies": {}
 }

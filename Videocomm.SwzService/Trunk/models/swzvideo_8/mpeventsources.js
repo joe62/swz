@@ -1,0 +1,26 @@
+/* jshint indent: 2 */
+
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('mpeventsources', {
+    ID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    EventID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    SensorID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    Subcell: {
+      type: DataTypes.INTEGER(11),
+      allowNull: true
+    }
+  }, {
+    tableName: 'mpeventsources'
+  });
+};

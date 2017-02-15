@@ -1,0 +1,36 @@
+/* jshint indent: 2 */
+
+module.exports = function(sequelize, DataTypes) {
+  return sequelize.define('eventlnkoutput', {
+    ID: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
+    },
+    EventId: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    SensorId: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    },
+    Delay: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      defaultValue: "0"
+    },
+    Do: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false,
+      defaultValue: "1"
+    },
+    SourceType: {
+      type: DataTypes.INTEGER(11),
+      allowNull: false
+    }
+  }, {
+    tableName: 'eventlnkoutput'
+  });
+};
