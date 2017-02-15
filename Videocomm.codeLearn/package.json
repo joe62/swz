@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": {},
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.2"
+  }
 }
